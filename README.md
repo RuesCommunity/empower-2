@@ -159,10 +159,10 @@ journalctl -u empowerd -f -o cat
 ```
 empowerd tx staking edit-validator \
 --commission-rate 0.1 \
---new-moniker "$MONIKER" \
+--new-moniker "arn" \
 --identity "" \
 --details "comolokko" \
---from $WALLET \
+--from kriptosekici \
 --chain-id circulus-1 \
 --gas auto --gas-adjustment 1.5 \
 -y
